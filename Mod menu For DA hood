@@ -54,8 +54,8 @@ local Window = Library.CreateLib("TwizzMod| BY Iced X", "BloodTheme")
         loadstring(game:HttpGet(('https://pastebin.com/raw/tFstqbYH'),true))()
     end)
 
-    PlayerSection:NewButton("Bypassed Speed", "be fast", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/TeamSkid/RobloxScripts/main/neverlose"))()
+    PlayerSection:NewButton("Bypassed Speed", "M for -- +5   N -- speed -5.   V -- toggle", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/z4gF68s7"))()
     end)
 
     --Aimlock
@@ -119,7 +119,7 @@ local Window = Library.CreateLib("TwizzMod| BY Iced X", "BloodTheme")
    stSection:NewKeybind("Toggle UI", "KeybindInfo", Enum.KeyCode.V, function()
 	     Library.ToggleUI()
     end)   
-
+    
     --credits 
 
     local Credits = Window:NewTab("Credits")
@@ -129,4 +129,4 @@ local Window = Library.CreateLib("TwizzMod| BY Iced X", "BloodTheme")
     
     CreditsSection:NewLabel("DM me if you find i bug in my mod menu!")
     
-    CreditsSection:NewLabel("Note: Bans are not my fault!")
+    CreditsSection:NewLabel("Note: Bans are not m
